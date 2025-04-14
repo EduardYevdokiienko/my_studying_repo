@@ -5,9 +5,10 @@ venv
 .venv
 __pycache__
 .vscode
-st7
 db_creds.py
 .env
 allure-results
 allure-report
 allure-rereport
+requirements.txt
+.gitignore

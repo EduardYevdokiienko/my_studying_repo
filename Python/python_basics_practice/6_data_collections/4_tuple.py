@@ -14,3 +14,9 @@ print(my_list)
 my_tuple = tuple(my_list)
 
 print(my_tuple)
+
+# 6_15_tuple_operations
+my_tuple = ('red', 'green', 'blue')
+verify_green = my_tuple[1] == 'green'
+len_of_tuple = len(my_tuple)
+print(f"Availability 'green': {verify_green}. Length of the tuple: {len_of_tuple}")
