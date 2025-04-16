@@ -10,12 +10,12 @@ bug_reports = [
 bug_input = input("Please type priority for search (High, Medium, Critical or Low): ")
 for bug in bug_reports[:]:
     if 'Low' in bug_reports:
-        print(bug_reports)
+        print(bug)
     elif 'Medium' in bug_reports:
         print(bug)
     elif 'High' in bug_reports:
-        print(bug_reports)
+        print(bug)
     elif 'Critical' in bug_reports:
-        print(bug_reports)
+        print(bug)
     else:
         print('Issues not found!')
