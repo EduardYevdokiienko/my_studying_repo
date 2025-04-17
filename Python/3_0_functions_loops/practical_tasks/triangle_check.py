@@ -10,3 +10,18 @@
 # Введите длину третьей стороны: 5
 # Результат: Треугольник разносторонний.
 def check_triangle(a, b, c):
+    sum_ab = a + b
+    sum_bc = b + c
+    sum_ac = a + c
+    if a < sum_ab and a < sum_bc and a < sum_ac:
+        if a == b == c:
+            print("Треугольник равносторонний")
+        elif a == b or b == c or a == c:
+            print("Треугольник равнобедренный")
+        else:
+            print("Треугольник разносторонний")
+
+a = int(input("Введите длину первой стороны: "))
+b = int(input("Введите длину второй стороны: "))
+c = int(input("Введите длину третьей стороны: "))
+check_triangle(a, b, c)
